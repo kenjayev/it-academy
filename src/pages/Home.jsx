@@ -1,9 +1,16 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import { Achievements, Banner, WhyUs } from "../components";
 
 const Home = () => {
   const { t } = useTranslation();
-  return <div>Home {t("bir")}</div>;
+  return (
+    <>
+      <Banner />
+      <WhyUs />
+      <Achievements />
+    </>
+  );
 };
 
 export default Home;

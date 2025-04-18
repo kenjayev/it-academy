@@ -2,9 +2,9 @@ import { Outlet } from "react-router-dom";
 
 const Main = () => {
   return (
-    <div>
+    <main className="bg-gray-50">
       <Outlet />
-    </div>
+    </main>
   );
 };
 

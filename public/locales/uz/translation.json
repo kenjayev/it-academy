@@ -1,0 +1,45 @@
+{
+  "header": {
+    "telegram": "Telegram",
+    "contact": "Biz bilan bog'lanish",
+    "navLink1": "Asosiy",
+    "navLink2": "Kurslar",
+    "navLink3": "Mentorlar",
+    "navLink4": "Biz haqimizda",
+    "navLink5": "Aloqa",
+    "consultation": "Bepul konsultatsiya"
+  },
+  "banner": {
+    "title": "Tajribaga asoslangan ishonchli kelajak",
+    "desc": "IT Time - zamonaviy kasblar akademiyasi. Biz eng so'nggi texnologiyalar va real loyihalar yordamida tajribali mutaxassislar yordamida o'qitamiz. Bizning maqsadimiz - sizni yuqori maoshli IT mutaxassisiga aylantirish.",
+    "btn": "Ariza qoldirish"
+  },
+  "whyUs": {
+    "title": "Nega aynan bizni tanlashingiz kerak?",
+    "item1": {
+      "title": "Mablag' yo'qmi? - Bizda yechim bor!",
+      "desc": "Agar kurslarga qatnashish uchun yetarli mablag'ingiz bo'lmasa, tushkunlikka tushmang. Biz sizga bu muammoni hal qilishda yordam beramiz."
+    },
+    "item2": {
+      "title": "Bilimingizni muvaffaqiyatli soting!",
+      "desc": "Biz nafaqat bilim beramiz, balki uni muvaffaqiyatli sotish va karyerangizni boshlashga yordam beramiz."
+    },
+    "item3": {
+      "title": "Kuchli mutaxassislardan sifatli ta'lim!",
+      "desc": "Bizning o'qituvchilarimiz - o'z sohalarining real ish tajribasiga ega professional vakillari."
+    },
+    "item4": {
+      "title": "Amaliyot, real loyihalar va portfolio!",
+      "desc": "O'qish jarayonida siz real loyihalar ustida ishlaysiz va portfoliongizni shakllantirasiz."
+    },
+    "item5": {
+      "title": "Zamonaviy muhit, bepul Coworking va Wi-Fi",
+      "desc": "Qulay va zamonaviy o'quv muhiti, bepul coworking zona va yuqori tezlikdagi internet sizning ixtiyoringizda."
+    },
+    "item6": {
+      "title": "Sertifikat",
+      "desc": "Kursni muvaffaqiyatli tugatgan har bir talabaga xalqaro standartlarga mos sertifikat beriladi."
+    }
+  },
+  "bir": "birlar"
+}
