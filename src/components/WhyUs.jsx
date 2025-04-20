@@ -36,7 +36,7 @@ const WhyUs = () => {
       <h2 className={`${style.sectionTitle}`}>{t("whyUs.title")}</h2>
       <div className="flex flex-col space-y-8 p-4 md:p-12">
         {servicesArr.map((item) => (
-          <div className="perspective-1000">
+          <div key={item.title} className="perspective-1000">
             <div className="p-8 md:p-12 group relative bg-white shadow-2xl rounded-2xl overflow-hidden translate-z-0 hover:translate-z-[35px] transition-all duration-600">
               <h3 className="text-3xl md:text-4xl font-bold text-gray-800 glitch-text text-shadow-[2px_2px_4px_rgba(0_0_0_/_0.1)]">
                 {item.title}

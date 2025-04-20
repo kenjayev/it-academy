@@ -41,5 +41,20 @@
       "desc": "Kursni muvaffaqiyatli tugatgan har bir talabaga xalqaro standartlarga mos sertifikat beriladi."
     }
   },
+  "contactForm": {
+    "title": "Biz bilan aloqaga chiqmohchimisiz?",
+    "desc": "Formani to'ldiring va biz siz bilan bog'lanamiz",
+    "label1": "Ismingiz",
+    "input1": "Ismingizni kriting",
+    "label2": "Telefon raqamingiz",
+    "button": "Yuborish"
+  },
+  "contactInfo": {
+    "title": "Biz bilan bog'lanish",
+    "item1": "Telegram",
+    "item2": "Telefon",
+    "item3": "Email",
+    "item4": "Manzil"
+  },
   "bir": "birlar"
 }

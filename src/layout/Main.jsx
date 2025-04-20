@@ -2,7 +2,7 @@ import { Outlet } from "react-router-dom";
 
 const Main = () => {
   return (
-    <main className="mt-15 sm:mt-25 md:mt-40">
+    <main className="mt-15 sm:mt-[70px] md:mt-[130px]">
       <Outlet />
     </main>
   );

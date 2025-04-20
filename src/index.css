@@ -11,12 +11,12 @@ html {
   backdrop-filter: blur(10px);
   box-shadow: rgba(31, 38, 135, 0.15) 0px 8px 32px;
   background: rgba(255, 255, 255, 0.95);
-  animation: 0.5s ease-in-out 0s 1 normal none running slideDown;
+  animation: 0.55s ease-in-out 0s 1 normal none running slideDown;
 }
 @keyframes slideDown {
   from {
     transform: translateY(-81.2728%);
-    opacity: 0.587272;
+    opacity: 0.187272;
   }
   to {
     transform: translateY(0);
