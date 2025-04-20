@@ -2,7 +2,7 @@ import { Outlet } from "react-router-dom";
 
 const Main = () => {
   return (
-    <main className="bg-gray-50">
+    <main className="mt-15 sm:mt-25 md:mt-40">
       <Outlet />
     </main>
   );

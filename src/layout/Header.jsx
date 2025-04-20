@@ -1,13 +1,32 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { NavLink } from "react-router-dom";
 import ChangeLng from "../components/ChangeLng";
 import { style } from "../util/style";
 
 const Header = () => {
+  const [isSticky, setIsSticky] = useState(false);
   const { t } = useTranslation();
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsSticky(window.scrollY > 120);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    // Cleanup
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
-    <header className="shadow-xl">
+    <header
+      className={`${
+        isSticky && "navbar-scroll"
+      } shadow-md fixed top-0 right-0 left-0 w-full`}
+      style={{ position: "fixed", zIndex: 99 }}
+    >
       <div className="bg-main w-full text-white py-2 hidden md:block shadow-md">
         <div className={`${style.container} flex justify-between items-center`}>
           <ChangeLng />
