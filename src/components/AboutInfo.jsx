@@ -139,7 +139,7 @@ const AboutInfo = () => {
       </div>
 
       {/* Top */}
-      <div className="advantages-section my-16">
+      <div className="advantages-section my-16 mt-18">
         <h2 className="mb-8 text-center text-3xl leading-9 font-bold text-gray-900">
           Top IT akademiya
         </h2>
@@ -172,72 +172,77 @@ const AboutInfo = () => {
         </div>
       </div>
       {/*  */}
-      <div className="text-start grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-16">
-        <div
-          className="rounded-xl bg-white p-6 shadow-xl hover:scale-[1.05] scale-none transition-all ease-in-out duration-[1s]"
-          data-aos="fade-left"
-          data-aos-offset="50"
-        >
-          <svg
-            stroke="currentColor"
-            fill="currentColor"
-            stroke-width="0"
-            viewBox="0 0 640 512"
-            className="text-[1.8rem] min-w-[50px] h-[50px] flex items-center justify-center text-[#ef4444] bg-[#f5f5f5] rounded-[10px] mb-4"
-            height="1em"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
+      <div className="mt-12 rounded-xl bg-white px-5 py-9 shadow-md">
+        <h2 className="mb-8 text-center text-3xl leading-9 font-bold text-gray-900">
+          Bizning qadriyatlarimiz
+        </h2>
+        <div className="text-start grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
+          <div
+            className="rounded-xl bg-white p-6 shadow-xl hover:scale-[1.05] scale-none transition-all ease-in-out duration-[1s]"
+            data-aos="fade-left"
+            data-aos-offset="50"
           >
-            <path d="M96 224c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm448 0c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm32 32h-64c-17.6 0-33.5 7.1-45.1 18.6 40.3 22.1 68.9 62 75.1 109.4h66c17.7 0 32-14.3 32-32v-32c0-35.3-28.7-64-64-64zm-256 0c61.9 0 112-50.1 112-112S381.9 32 320 32 208 82.1 208 144s50.1 112 112 112zm76.8 32h-8.3c-20.8 10-43.9 16-68.5 16s-47.6-6-68.5-16h-8.3C179.6 288 128 339.6 128 403.2V432c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48v-28.8c0-63.6-51.6-115.2-115.2-115.2zm-223.7-13.4C161.5 263.1 145.6 256 128 256H64c-35.3 0-64 28.7-64 64v32c0 17.7 14.3 32 32 32h65.9c6.3-47.4 34.9-87.3 75.2-109.4z"></path>
-          </svg>
-          <h3 className="mb-2 text-xl leading-7 font-semibold text-gray-900">
-            {t("aboutUs.item1.title")}
-          </h3>
-          <p className="text-gray-600">{t("aboutUs.item1.desc")}</p>
-        </div>
-        <div
-          className="rounded-xl bg-white p-6 shadow-xl hover:scale-[1.05] scale-none transition-all ease-in-out duration-[1s]"
-          data-aos="fade-left"
-          data-aos-offset="50"
-        >
-          <svg
-            stroke="currentColor"
-            fill="currentColor"
-            stroke-width="0"
-            viewBox="0 0 512 512"
-            className="text-[1.8rem] min-w-[50px] h-[50px] flex items-center justify-center text-[#ef4444] bg-[#f5f5f5] rounded-[10px] mb-4"
-            height="1em"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
+            <svg
+              stroke="currentColor"
+              fill="currentColor"
+              stroke-width="0"
+              viewBox="0 0 640 512"
+              className="text-[1.8rem] min-w-[50px] h-[50px] flex items-center justify-center text-[#ef4444] bg-[#f5f5f5] rounded-[10px] mb-4"
+              height="1em"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M96 224c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm448 0c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm32 32h-64c-17.6 0-33.5 7.1-45.1 18.6 40.3 22.1 68.9 62 75.1 109.4h66c17.7 0 32-14.3 32-32v-32c0-35.3-28.7-64-64-64zm-256 0c61.9 0 112-50.1 112-112S381.9 32 320 32 208 82.1 208 144s50.1 112 112 112zm76.8 32h-8.3c-20.8 10-43.9 16-68.5 16s-47.6-6-68.5-16h-8.3C179.6 288 128 339.6 128 403.2V432c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48v-28.8c0-63.6-51.6-115.2-115.2-115.2zm-223.7-13.4C161.5 263.1 145.6 256 128 256H64c-35.3 0-64 28.7-64 64v32c0 17.7 14.3 32 32 32h65.9c6.3-47.4 34.9-87.3 75.2-109.4z"></path>
+            </svg>
+            <h3 className="mb-2 text-xl leading-7 font-semibold text-gray-900">
+              {t("aboutUs.item1.title")}
+            </h3>
+            <p className="text-gray-600">{t("aboutUs.item1.desc")}</p>
+          </div>
+          <div
+            className="rounded-xl bg-white p-6 shadow-xl hover:scale-[1.05] scale-none transition-all ease-in-out duration-[1s]"
+            data-aos="fade-left"
+            data-aos-offset="50"
           >
-            <path d="M458.622 255.92l45.985-45.005c13.708-12.977 7.316-36.039-10.664-40.339l-62.65-15.99 17.661-62.015c4.991-17.838-11.829-34.663-29.661-29.671l-61.994 17.667-15.984-62.671C337.085.197 313.765-6.276 300.99 7.228L256 53.57 211.011 7.229c-12.63-13.351-36.047-7.234-40.325 10.668l-15.984 62.671-61.995-17.667C74.87 57.907 58.056 74.738 63.046 92.572l17.661 62.015-62.65 15.99C.069 174.878-6.31 197.944 7.392 210.915l45.985 45.005-45.985 45.004c-13.708 12.977-7.316 36.039 10.664 40.339l62.65 15.99-17.661 62.015c-4.991 17.838 11.829 34.663 29.661 29.671l61.994-17.667 15.984 62.671c4.439 18.575 27.696 24.018 40.325 10.668L256 458.61l44.989 46.001c12.5 13.488 35.987 7.486 40.325-10.668l15.984-62.671 61.994 17.667c17.836 4.994 34.651-11.837 29.661-29.671l-17.661-62.015 62.65-15.99c17.987-4.302 24.366-27.367 10.664-40.339l-45.984-45.004z"></path>
-          </svg>
-          <h3 className="mb-2 text-xl leading-7 font-semibold text-gray-900">
-            {t("aboutUs.item2.title")}
-          </h3>
-          <p className="text-gray-600">{t("aboutUs.item2.desc")}</p>
-        </div>
-        <div
-          className="rounded-xl bg-white p-6 shadow-xl hover:scale-[1.05] scale-none transition-all ease-in-out duration-1000"
-          data-aos="fade-left"
-          data-aos-offset="50"
-        >
-          <svg
-            className="text-[1.8rem] min-w-[50px] h-[50px] flex items-center justify-center text-[#ef4444] bg-[#f5f5f5] rounded-[10px] mb-4"
-            stroke="currentColor"
-            fill="currentColor"
-            stroke-width="0"
-            viewBox="0 0 512 512"
-            height="1em"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
+            <svg
+              stroke="currentColor"
+              fill="currentColor"
+              stroke-width="0"
+              viewBox="0 0 512 512"
+              className="text-[1.8rem] min-w-[50px] h-[50px] flex items-center justify-center text-[#ef4444] bg-[#f5f5f5] rounded-[10px] mb-4"
+              height="1em"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M458.622 255.92l45.985-45.005c13.708-12.977 7.316-36.039-10.664-40.339l-62.65-15.99 17.661-62.015c4.991-17.838-11.829-34.663-29.661-29.671l-61.994 17.667-15.984-62.671C337.085.197 313.765-6.276 300.99 7.228L256 53.57 211.011 7.229c-12.63-13.351-36.047-7.234-40.325 10.668l-15.984 62.671-61.995-17.667C74.87 57.907 58.056 74.738 63.046 92.572l17.661 62.015-62.65 15.99C.069 174.878-6.31 197.944 7.392 210.915l45.985 45.005-45.985 45.004c-13.708 12.977-7.316 36.039 10.664 40.339l62.65 15.99-17.661 62.015c-4.991 17.838 11.829 34.663 29.661 29.671l61.994-17.667 15.984 62.671c4.439 18.575 27.696 24.018 40.325 10.668L256 458.61l44.989 46.001c12.5 13.488 35.987 7.486 40.325-10.668l15.984-62.671 61.994 17.667c17.836 4.994 34.651-11.837 29.661-29.671l-17.661-62.015 62.65-15.99c17.987-4.302 24.366-27.367 10.664-40.339l-45.984-45.004z"></path>
+            </svg>
+            <h3 className="mb-2 text-xl leading-7 font-semibold text-gray-900">
+              {t("aboutUs.item2.title")}
+            </h3>
+            <p className="text-gray-600">{t("aboutUs.item2.desc")}</p>
+          </div>
+          <div
+            className="rounded-xl bg-white p-6 shadow-xl hover:scale-[1.05] scale-none transition-all ease-in-out duration-1000"
+            data-aos="fade-left"
+            data-aos-offset="50"
           >
-            <path d="M505.12019,19.09375c-1.18945-5.53125-6.65819-11-12.207-12.1875C460.716,0,435.507,0,410.40747,0,307.17523,0,245.26909,55.20312,199.05238,128H94.83772c-16.34763.01562-35.55658,11.875-42.88664,26.48438L2.51562,253.29688A28.4,28.4,0,0,0,0,264a24.00867,24.00867,0,0,0,24.00582,24H127.81618l-22.47457,22.46875c-11.36521,11.36133-12.99607,32.25781,0,45.25L156.24582,406.625c11.15623,11.1875,32.15619,13.15625,45.27726,0l22.47457-22.46875V488a24.00867,24.00867,0,0,0,24.00581,24,28.55934,28.55934,0,0,0,10.707-2.51562l98.72834-49.39063c14.62888-7.29687,26.50776-26.5,26.50776-42.85937V312.79688c72.59753-46.3125,128.03493-108.40626,128.03493-211.09376C512.07526,76.5,512.07526,51.29688,505.12019,19.09375ZM384.04033,168A40,40,0,1,1,424.05,128,40.02322,40.02322,0,0,1,384.04033,168Z"></path>
-          </svg>
-          <h3 className="mb-2 text-xl leading-7 font-semibold text-gray-900">
-            {t("aboutUs.item3.title")}
-          </h3>
-          <p className="text-gray-600">{t("aboutUs.item3.desc")}</p>
+            <svg
+              className="text-[1.8rem] min-w-[50px] h-[50px] flex items-center justify-center text-[#ef4444] bg-[#f5f5f5] rounded-[10px] mb-4"
+              stroke="currentColor"
+              fill="currentColor"
+              stroke-width="0"
+              viewBox="0 0 512 512"
+              height="1em"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M505.12019,19.09375c-1.18945-5.53125-6.65819-11-12.207-12.1875C460.716,0,435.507,0,410.40747,0,307.17523,0,245.26909,55.20312,199.05238,128H94.83772c-16.34763.01562-35.55658,11.875-42.88664,26.48438L2.51562,253.29688A28.4,28.4,0,0,0,0,264a24.00867,24.00867,0,0,0,24.00582,24H127.81618l-22.47457,22.46875c-11.36521,11.36133-12.99607,32.25781,0,45.25L156.24582,406.625c11.15623,11.1875,32.15619,13.15625,45.27726,0l22.47457-22.46875V488a24.00867,24.00867,0,0,0,24.00581,24,28.55934,28.55934,0,0,0,10.707-2.51562l98.72834-49.39063c14.62888-7.29687,26.50776-26.5,26.50776-42.85937V312.79688c72.59753-46.3125,128.03493-108.40626,128.03493-211.09376C512.07526,76.5,512.07526,51.29688,505.12019,19.09375ZM384.04033,168A40,40,0,1,1,424.05,128,40.02322,40.02322,0,0,1,384.04033,168Z"></path>
+            </svg>
+            <h3 className="mb-2 text-xl leading-7 font-semibold text-gray-900">
+              {t("aboutUs.item3.title")}
+            </h3>
+            <p className="text-gray-600">{t("aboutUs.item3.desc")}</p>
+          </div>
         </div>
       </div>
     </section>

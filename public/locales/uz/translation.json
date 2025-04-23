@@ -14,6 +14,14 @@
     "desc": "IT Time - zamonaviy kasblar akademiyasi. Biz eng so'nggi texnologiyalar va real loyihalar yordamida tajribali mutaxassislar yordamida o'qitamiz. Bizning maqsadimiz - sizni yuqori maoshli IT mutaxassisiga aylantirish.",
     "btn": "Ariza qoldirish"
   },
+  "graduates": {
+    "title": "Bitiruvchilarimizning muvaffaqiyat hikoyalari",
+    "graduate": "Bitiruvchi",
+    "yol": "Frontend dasturchi",
+    "text": "Kursni muvaffaqiyatli tugatdi va IT kompaniyada ish topdi",
+    "company": "Kompaniya",
+    "soqqa": "Daromad o‘sishi"
+  },
   "whyUs": {
     "title": "Nega aynan bizni tanlashingiz kerak?",
     "item1": {
@@ -39,6 +47,71 @@
     "item6": {
       "title": "Sertifikat",
       "desc": "Kursni muvaffaqiyatli tugatgan har bir talabaga xalqaro standartlarga mos sertifikat beriladi."
+    }
+  },
+  "mentors": {
+    "title": "Bizning mentorlar",
+    "subtitle": "Sizga muvaffaqiyatga erishishga yordam beradigan tajribali mutaxassislar",
+    "specialty": "Ixtisosligi",
+    "mentor1": {
+      "fullName": "Rustambek Mamadaliyev",
+      "job": "Senior Frontend o'qituvchisi",
+      "desc": "O'n yildan ortiq dasturlash tajribasi va besh yillik o'qitish faoliyatim davomida 500 dan ortiq o'quvchilarni professional dasturchilar qilib yetishtirdim. Zamonaviy frontend texnologiyalari va dasturlash metodologiyalari bo'yicha chuqur bilim va amaliy tajribaga egaman.",
+      "technologies1": "ReactJS",
+      "technologies2": "Vue.js",
+      "technologies3": "Angular",
+      "technologies4": "TypeScript",
+      "technologies5": "Node.js",
+      "technologies6": "AWS",
+      "technologies7": "CI/CD"
+    },
+    "mentor2": {
+      "fullName": "Rustambek Mamadaliyev",
+      "job": "Senior Frontend o'qituvchisi",
+      "desc": "O'n yildan ortiq dasturlash tajribasi va besh yillik o'qitish faoliyatim davomida 500 dan ortiq o'quvchilarni professional dasturchilar qilib yetishtirdim. Zamonaviy frontend texnologiyalari va dasturlash metodologiyalari bo'yicha chuqur bilim va amaliy tajribaga egaman.",
+      "technologies1": "ReactJS",
+      "technologies2": "Vue.js",
+      "technologies3": "Angular",
+      "technologies4": "TypeScript",
+      "technologies5": "Node.js",
+      "technologies6": "AWS",
+      "technologies7": "CI/CD"
+    },
+    "mentor3": {
+      "fullName": "Rustambek Mamadaliyev",
+      "job": "Senior Frontend o'qituvchisi",
+      "desc": "O'n yildan ortiq dasturlash tajribasi va besh yillik o'qitish faoliyatim davomida 500 dan ortiq o'quvchilarni professional dasturchilar qilib yetishtirdim. Zamonaviy frontend texnologiyalari va dasturlash metodologiyalari bo'yicha chuqur bilim va amaliy tajribaga egaman.",
+      "technologies1": "ReactJS",
+      "technologies2": "Vue.js",
+      "technologies3": "Angular",
+      "technologies4": "TypeScript",
+      "technologies5": "Node.js",
+      "technologies6": "AWS",
+      "technologies7": "CI/CD"
+    },
+    "mentor4": {
+      "fullName": "Rustambek Mamadaliyev",
+      "job": "Senior Frontend o'qituvchisi",
+      "desc": "O'n yildan ortiq dasturlash tajribasi va besh yillik o'qitish faoliyatim davomida 500 dan ortiq o'quvchilarni professional dasturchilar qilib yetishtirdim. Zamonaviy frontend texnologiyalari va dasturlash metodologiyalari bo'yicha chuqur bilim va amaliy tajribaga egaman.",
+      "technologies1": "ReactJS",
+      "technologies2": "Vue.js",
+      "technologies3": "Angular",
+      "technologies4": "TypeScript",
+      "technologies5": "Node.js",
+      "technologies6": "AWS",
+      "technologies7": "CI/CD"
+    },
+    "mentor5": {
+      "fullName": "Rustambek Mamadaliyev",
+      "job": "Senior Frontend o'qituvchisi",
+      "desc": "O'n yildan ortiq dasturlash tajribasi va besh yillik o'qitish faoliyatim davomida 500 dan ortiq o'quvchilarni professional dasturchilar qilib yetishtirdim. Zamonaviy frontend texnologiyalari va dasturlash metodologiyalari bo'yicha chuqur bilim va amaliy tajribaga egaman.",
+      "technologies1": "ReactJS",
+      "technologies2": "Vue.js",
+      "technologies3": "Angular",
+      "technologies4": "TypeScript",
+      "technologies5": "Node.js",
+      "technologies6": "AWS",
+      "technologies7": "CI/CD"
     }
   },
   "aboutUs": {
